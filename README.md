@@ -7,5 +7,8 @@ Member ve Admin olarak 2 ayrý area açýldý, her ayrý rol için ayrý iþlemler ve ay
 
 Yetkilendirme sonucu sadece adminin yetkisi olduðu bir yere (admin paneli) Memberler veya hiç giriþ yapmamýþ olanlar eriþemiyor.
 
+Core katmaný classlar ve interfaceler için bir düzen belirliyor
+
+Utility katmanýnda güvenlik ve birazda log için baðlanan kiþinin ip'sini yakalýyoruz
 
 # SepetProjesi
