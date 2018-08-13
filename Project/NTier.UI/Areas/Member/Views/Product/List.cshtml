@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList;
+@using PagedList.Mvc;
+@using NTier.Model.Model.Entities
+@model IPagedList<Product>
+
+<div class="row" style="margin-top:50px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="col-lg-12">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Ürün Adı</th>
+                            <th>Fiyat</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td style="line-height:40px;">@item.Name</td>
+                                <td style="line-height:40px;">@item.Price</td>
+                                <td>
+                                    <a href="javascript:void(0)" class="add-to-cart">
+                                        <img src="~/Content/images/cart.png" class="btnCart" val="@item.ID" width="40" height="40" data-toggle="tooltip" data-placement="right" title="Sepete Ekle" />
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="pagedList">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), PagedListRenderOptions.Classic)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $('.add-to-cart').on('click', function () {
+            $('html', 'body').animate({
+                'scrollTop': $(".cart_anchor").position().tops
+            });
+            var itemImg = $(this).parent().find('img').eq(0);
+            flyToElement($(itemImg), $('.cart_anchor'));
+
+        });
+    });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $(".btnCart").click(function () {
+        var id = $(this).attr("val");
+
+        $.ajax({
+            type: "POST",
+            dataType: "Json",
+            url: "@Url.Action("Add","Cart",new { area=""})/" + id,
+            success: function () {
+            }
+
+        })
+
+    })
+
+
+
+</script>
+
+<style>
+    img:hover {
+        cursor: pointer !important;
+    }
+</style>
+

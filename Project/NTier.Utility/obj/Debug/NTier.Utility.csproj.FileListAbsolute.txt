@@ -1,0 +1,5 @@
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Utility\bin\Debug\NTier.Utility.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Utility\bin\Debug\NTier.Utility.pdb
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Utility\obj\Debug\NTier.Utility.csprojResolveAssemblyReference.cache
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Utility\obj\Debug\NTier.Utility.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Utility\obj\Debug\NTier.Utility.pdb

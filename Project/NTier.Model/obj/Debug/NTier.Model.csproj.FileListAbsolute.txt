@@ -1,0 +1,12 @@
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\NTier.Model.dll.config
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\NTier.Model.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\NTier.Model.pdb
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\EntityFramework.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\NTier.Core.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\NTier.Core.pdb
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\EntityFramework.xml
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\obj\Debug\NTier.Model.csprojResolveAssemblyReference.cache
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\obj\Debug\NTier.Model.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Model\obj\Debug\NTier.Model.pdb

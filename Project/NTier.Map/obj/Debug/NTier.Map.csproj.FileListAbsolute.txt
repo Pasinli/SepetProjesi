@@ -1,0 +1,14 @@
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\NTier.Map.dll.config
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\NTier.Map.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\NTier.Map.pdb
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\EntityFramework.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\NTier.Core.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\NTier.Model.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\NTier.Core.pdb
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\NTier.Model.pdb
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\EntityFramework.xml
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\obj\Debug\NTier.Map.csprojResolveAssemblyReference.cache
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\obj\Debug\NTier.Map.dll
+D:\Bilge Adam Projeler\YMS5435_Project\NTier.Map\obj\Debug\NTier.Map.pdb
