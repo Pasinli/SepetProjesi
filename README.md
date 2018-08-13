@@ -1,10 +1,11 @@
-Projenin anlaï¿½ï¿½labilirliï¿½i ve geniï¿½letilebilirliï¿½i aï¿½ï¿½sï¿½ndan  N-Tier Architecture kullanï¿½ldï¿½.
-Sayfa dï¿½zeni ve responsive olmasï¿½ iï¿½in boostrap, javascript kï¿½tï¿½phanesi olarak jquery kullanï¿½ldï¿½.
-Projeye EntityFramework eklendi.Veritabanï¿½ oluï¿½turmak iï¿½in code first kullanï¿½ldï¿½.
+Projenin anlaþýlabilirliði ve geniþletilebilirliði açýsýndan  N-Tier Architecture kullanýldý.
+Sayfa düzeni ve responsive olmasý için boostrap, javascript kütüphanesi olarak jquery kullanýldý.
+Projeye EntityFramework eklendi.Veritabaný oluþturmak için code first kullanýldý.
+Sayfalama yapmak için Nuget'den IpagedList indirilip kullanýldý.
 
-Member ve Admin olarak 2 ayrï¿½ area aï¿½ï¿½ldï¿½, her ayrï¿½ rol iï¿½in ayrï¿½ iï¿½lemler ve ayrï¿½ controller yapï¿½larï¿½ kullanï¿½ldï¿½.
+Member ve Admin olarak 2 ayrý area açýldý, her ayrý rol için ayrý iþlemler ve ayrý controller yapýlarý kullanýldý.
 
-Yetkilendirme sonucu sadece adminin yetkisi olduï¿½u bir yere (admin paneli) Memberler veya hiï¿½ giriï¿½ yapmamï¿½ï¿½ olanlar eriï¿½emiyor.
+Yetkilendirme sonucu sadece adminin yetkisi olduðu bir yere (admin paneli) Memberler veya hiç giriþ yapmamýþ olanlar eriþemiyor.
 
 
 # SepetProjesi
